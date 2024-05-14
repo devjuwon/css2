@@ -1,0 +1,81 @@
+*{
+    font-family: poppins, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.card{
+    width: 250px;
+    height: auto;
+    border: 1px solid; 
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px;
+    background-color: aquamarine;
+    padding: 20px;
+
+}
+.productimage{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+button{
+    margin-top: 5px;
+    width: 100%;
+    background-color: rgb(190, 55, 190);
+    border-radius: 30px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 2px 2px 2px 2px;
+}
+.icons-container{
+    color: blueviolet;
+}
+.productname{
+    font-weight: bolder;
+    font-style:normal;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color:rgb(74, 163, 74);
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.logol{
+    width: 100px;
+    height: 100px;
+}
+nav .navlinks a{
+    text-decoration: none;
+    margin-right: 25px;
+}
+nav .navlinks a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    transition: 0.25s ease-in;
+}
+.searchbar{
+    border:10px;border-block-end-color: ;
+}
+section{
+    display: flex;
+}
+
+.search-icons{
+    background: whitesmoke;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.search-icons input{
+    border: none;
+    background-color: transparent;
+}
